@@ -7,6 +7,21 @@ import java.util.TreeSet;
 
 public class CodingQuestionsSolution {
 
+    int test;
+    boolean res;
+
+    {
+        System.out.println("Calling block");
+        test = 31;
+        res = false;
+        otherRes = "Damn";
+    }
+
+    String otherRes;
+
+    public CodingQuestionsSolution (){
+        System.out.println("Calling constructor");
+    }
     /*Amazon is building a way to help customers search reviews quicker by providing real-time suggestions to search terms when the customer starts typing.
     When given a minimum of two characters into the search field the system will suggest at most three keywords from the review word repository.
     As the customer continues to type in the reviews search bar the relevant keyword suggestions will update automatically.
