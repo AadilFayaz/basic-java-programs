@@ -5,6 +5,7 @@ import src.main.prepTests.ContractInterface;
 import src.main.prepTests.ContractInterfaceImpl;
 import src.main.prepTests.SquaringFunctionalInterface;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.function.Predicate;
@@ -14,38 +15,7 @@ public class Main {
     //private final static SquaringFunctionalInterface squaring = num -> num * num;
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(BigDecimal.valueOf(0.1).add(BigDecimal.valueOf(0.2)).equals(BigDecimal.valueOf(0.4)));
 
 
 
